@@ -3,7 +3,7 @@
 ## About
 2 Hours Workshop about PWA + Live demo
 
-Developend a food order progressive web application, deployed on Firebase.
+Developed a food order progressive web application, deployed on Firebase.
 
 ### Technologies
 * [React] - A JavaScript library for building user interfaces
