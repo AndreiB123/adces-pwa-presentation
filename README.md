@@ -5,7 +5,7 @@
 
 Developend a food order progressive web application, deployed on Firebase.
 
-### technologies
+### Technologies
 * [React] - A JavaScript library for building user interfaces
 * [Bootstrap] - esponsive, mobile-first projects on the web
 * [Firebase] - One platform, with products that work better together
