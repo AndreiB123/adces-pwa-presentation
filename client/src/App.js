@@ -119,13 +119,12 @@ class App extends Component {
 
   onClick = event => {
     event.preventDefault();
-    const { name, order, sum, token } = this.state;
+    const { name, order, sum } = this.state;
     axios
       .post(`${SERVER}/order`, {
         name: name,
         order: order,
-        sum: sum,
-        token: token
+        sum: sum
       })
       .then(response => {
         this.refreshDate();
@@ -170,12 +169,6 @@ class App extends Component {
               disabled={token === null}
             >
               Send notif
-            </button>
-            <button
-              className="btn btn-xs btn-danger pull-right mt-3 ml-2"
-              onClick={this.sendAll}
-            >
-              Send All
             </button>
           </div>
           <div className="col-md-4 offset-md-2 col-sm-12">
