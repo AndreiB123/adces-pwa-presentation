@@ -1,7 +1,7 @@
 # From 0 to PWA
 
 ## About
-2 Hours Workshop about PWA + Live demo
+2 Hours Workshop about Rapid Prototyping and PWA + Live demo
 
 Developed a food order progressive web application, deployed on Firebase.
 
@@ -37,8 +37,10 @@ $ firebase serve
 https://ixia-le-lunch.firebaseapp.com/
 
 #### Observation
-In index.js you need to add your Firebase SDK and the "firebase use <project_id>" command in order to use 
-the functions module, with your application.
+There are some additional steps in order to bind your firebase application:
+- in index.js you need to add your Firebase SDK
+- run "firebase use <project_id>" command in order to use the functions module, with your application.
+- add the configurations in the App.js file in order to use push notifications
 
 [React]: <https://reactjs.org>
 [node.js]: <http://nodejs.org>
