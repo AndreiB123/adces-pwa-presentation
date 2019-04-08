@@ -119,12 +119,13 @@ class App extends Component {
 
   onClick = event => {
     event.preventDefault();
-    const { name, order, sum } = this.state;
+    const { name, order, sum, token } = this.state;
     axios
       .post(`${SERVER}/order`, {
         name: name,
         order: order,
-        sum: sum
+        sum: sum,
+        token: token
       })
       .then(response => {
         this.refreshDate();
